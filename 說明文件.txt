@@ -1,0 +1,24 @@
+首先建好Order Model
+接著建置DB連線
+然後新增Controller
+
+//Index
+將Index頁面加上Checkbox 並帶入Value
+然後Item上導入Details並帶入Id 以便Details判別
+接著在Status判斷true false 顯示相對文字
+最後加上Submit 並加入Form 便於在Controller使用
+//Index
+
+然後到Controller頁面 加Confirm function 使用collection採取Checkbox Value
+判斷是否勾選 改變Status狀態 讓文字做變化
+以上完成第一階段題目
+
+第二階段
+新增 ShippingOrder Model 並在連線text加上 DBset
+回到Index頁面在Checkbox Value 加上OrderId 並加上"_" 利於分辨Id OrderId
+接著回到Controller的Confirm function 處理好ShippingOrder Model 及分辨Id OrderId 之後新增DB
+完成2-2題目
+
+移至Index頁面 在CheckBox那新增If判斷式 判斷Status狀態是否改變
+改變者CheckBox不可再次勾選
+完成2-3題目
